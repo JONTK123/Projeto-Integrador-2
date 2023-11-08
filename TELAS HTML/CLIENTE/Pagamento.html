@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .payment-container {
+            text-align: center;
+        }
+
+        #payment-type {
+            font-size: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px; /* Largura ajustada */
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #0074cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Realize seu pagamento</h1>
+        <div id="payment-type">
+            Escolha a forma de pagamento:
+            <input type="radio" name="payment" value="pix"> PIX
+            <input type="radio" name="payment" value="credit"> Cartão de Crédito
+        </div>
+        <input type="text" id="full-name" placeholder="Nome Completo">
+        <input type="text" id="email" placeholder="Email">
+        <button onclick="processPayment()">Realizar Pagamento</button>
+        <p id="payment-message"></p>
+    </div>
+
+    <script>
+        function processPayment() {
+            const paymentType = document.querySelector('input[name="payment"]:checked').value;
+            const fullName = document.getElementById('full-name').value;
+            const email = document.getElementById('email').value;
+            const paymentMessage = document.getElementById('payment-message');
+
+            if (fullName === '' || email === '') {
+                paymentMessage.textContent = 'Por favor, preencha seu nome completo e e-mail.';
+                return;
+            }
+
+            if (paymentType === 'pix') {
+                paymentMessage.textContent = 'Pagamento não aprovado. Tente novamente.';
+            } else if (paymentType === 'credit') {
+                // Simulando um pagamento aprovado
+                paymentMessage.textContent = 'Pagamento aprovado. Voucher enviado por email.';
+                sendVoucherByEmail(email);
+            }
+        }
+
+        function sendVoucherByEmail(email) {
+            // Simulando o envio de um voucher por email
+            console.log(`Voucher enviado para: ${email}`);
+        }
+    </script>
+</body>
+</html>
