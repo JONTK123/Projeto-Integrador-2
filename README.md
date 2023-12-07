@@ -27,6 +27,8 @@ Na quinta fase do projeto, direcionamos nossos esforços para criar uma experiê
 Utilizando JavaScript, integramos essas telas com o backend em TypeScript. Implementamos métodos de requisições HTTP com Node.js para enviar dados ao servidor e receber atualizações em tempo real sobre disponibilidade de voos, preços e informações relacionadas. Essa interação entre o front-end e o back-end permite uma experiência dinâmica e responsiva para os clientes durante o processo de compra.
 
 A integração entre o front-end e o back-end, com destaque para o método HTTP POST, foi crucial nessa fase, pois os dados inseridos pelos clientes são enviados ao servidor de maneira segura e eficiente. O servidor realiza validações, verifica a disponibilidade de assentos e processa o pagamento de acordo com as informações fornecidas. As respostas do servidor são então refletidas instantaneamente no front-end, proporcionando uma experiência fluida e transparente para os clientes.
+
+A integração entre o front-end e o back-end, com destaque para o método HTTP POST, foi crucial nessa fase, pois os dados inseridos pelos clientes são enviados ao servidor de maneira segura e eficiente. O servidor realiza validações, verifica a disponibilidade de assentos e processa o pagamento de acordo com as informações fornecidas. As respostas do servidor são então refletidas instantaneamente no front-end, proporcionando uma experiência fluida e transparente para os clientes.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 DELIVERY 1 - ADMIN
