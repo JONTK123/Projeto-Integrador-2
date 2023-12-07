@@ -19,11 +19,15 @@ A quarta e última fase envolveu o desenvolvimento do front-end, voltado para o 
 
 ENTREGA 2 - CLIENTES
 
-Na entrega 2, focaremos no desenvolvimento de telas e funcionalidades para o lado do cliente, com aprimoramento no CSS. Em breve, atualizações para correções ortográficas.
+Nesta segunda entrega, concentramo-nos no desenvolvimento de telas e funcionalidades voltadas para o lado do cliente, aprimorando a experiência de compra de passagens com melhorias significativas no design utilizando CSS. 
 
+Fase 5: Desenvolvimento do Front-end para Clientes
+Na quinta fase do projeto, direcionamos nossos esforços para criar uma experiência intuitiva para os clientes. Desenvolvemos telas HTML interativas que simulam o processo de compra de passagens aéreas. Os clientes podem navegar por diferentes opções de voos, visualizar detalhes das aeronaves, escolher assentos e proceder ao pagamento.
+
+Utilizando JavaScript, integramos essas telas com o backend em TypeScript. Implementamos métodos de requisições HTTP com Node.js para enviar dados ao servidor e receber atualizações em tempo real sobre disponibilidade de voos, preços e informações relacionadas. Essa interação entre o front-end e o back-end permite uma experiência dinâmica e responsiva para os clientes durante o processo de compra.
+
+A integração entre o front-end e o back-end, com destaque para o método HTTP POST, foi crucial nessa fase, pois os dados inseridos pelos clientes são enviados ao servidor de maneira segura e eficiente. O servidor realiza validações, verifica a disponibilidade de assentos e processa o pagamento de acordo com as informações fornecidas. As respostas do servidor são então refletidas instantaneamente no front-end, proporcionando uma experiência fluida e transparente para os clientes.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Title: Integrator Project 2 - Full-Stack Development with Node.js, TypeScript, Oracle SQL, and Web Technologies
 
 DELIVERY 1 - ADMIN
 
@@ -44,4 +48,11 @@ The fourth and final phase involved front-end development focused on the adminis
 
 DELIVERY 2 - CLIENTS
 
-In delivery 2, our focus will shift to developing screens and functionalities for the client's side, with an emphasis on CSS refinement. Stay tuned for updates regarding spelling corrections.
+In this second delivery, our focus shifted to developing screens and functionalities for the client's side, enhancing the ticket purchasing experience with significant improvements in design using CSS.
+
+Phase 5: Front-end Development for Clients
+In the fifth phase of the project, we directed our efforts toward creating an intuitive experience for clients. We developed interactive HTML screens that simulate the process of purchasing airline tickets. Clients can navigate through different flight options, view aircraft details, choose seats, and proceed to payment.
+
+Using JavaScript, we integrated these screens with the backend in TypeScript. We implemented HTTP request methods with Node.js to send data to the server and receive real-time updates on flight availability, prices, and related information. This interaction between the front-end and the back-end allows for a dynamic and responsive experience for clients during the purchasing process.
+
+The integration between the front-end and the back-end, with a notable emphasis on the HTTP POST method, was crucial in this phase. This method ensures that client-entered data is sent to the server securely and efficiently. The server performs validations, checks seat availability, and processes payment according to the provided information. Server responses are then reflected instantly on the front-end, providing a smooth and transparent experience for clients.
