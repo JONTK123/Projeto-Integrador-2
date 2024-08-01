@@ -1,4 +1,4 @@
-Título: Projeto Integrador 2 - Desenvolvimento Full-Stack com Node.js, TypeScript, Oracle SQL e Tecnologias Web
+#Título: Projeto Integrador 2 - Desenvolvimento Full-Stack com Node.js, TypeScript, Oracle SQL e Tecnologias Web
 
 ENTREGA 1 - ADM
 
